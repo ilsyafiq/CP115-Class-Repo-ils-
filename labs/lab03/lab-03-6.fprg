@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="lab-03-6"/>
+        <attribute name="authors" value="iuser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-07-22 12:34:44 PM"/>
+        <attribute name="created" value="aXVzZXI7S01MTEFCNy1QQzA0OzIwMjUtMDctMjI7MTI6MzA6NDIgUE07MjYxMA=="/>
+        <attribute name="edited" value="aXVzZXI7S01MTEFCNy1QQzA0OzIwMjUtMDctMjI7MTI6MzQ6NDQgUE07MjsyNzI1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="yardLength" type="Real" array="False" size=""/>
+            <declare name="yardWidth" type="Real" array="False" size=""/>
+            <declare name="houseLength" type="Real" array="False" size=""/>
+            <declare name="houseWidth" type="Real" array="False" size=""/>
+            <input variable="yardLength"/>
+            <input variable="yardWidth"/>
+            <input variable="houseLength"/>
+            <input variable="houseWidth"/>
+            <declare name="mowedArea" type="Real" array="False" size=""/>
+            <assign variable="mowedArea" expression="(yardLength*yardWidth)-(houseLength*houseWidth)"/>
+            <declare name="wage" type="Real" array="False" size=""/>
+            <assign variable="wage" expression="mowedArea * 2"/>
+            <output expression="wage" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
