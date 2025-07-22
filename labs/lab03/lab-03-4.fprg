@@ -4,12 +4,18 @@
         <attribute name="name" value="lab-03-4"/>
         <attribute name="authors" value="iuser"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2025-07-22 12:06:47 PM"/>
+        <attribute name="saved" value="2025-07-22 12:18:44 PM"/>
         <attribute name="created" value="aXVzZXI7S01MTEFCNy1QQzA0OzIwMjUtMDctMjI7MTI6MDY6MzIgUE07MjYxMg=="/>
-        <attribute name="edited" value="aXVzZXI7S01MTEFCNy1QQzA0OzIwMjUtMDctMjI7MTI6MDY6NDcgUE07MTsyNzI2"/>
+        <attribute name="edited" value="aXVzZXI7S01MTEFCNy1QQzA0OzIwMjUtMDctMjI7MTI6MTg6NDQgUE07MzsyNzI4"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
-        <body/>
+        <body>
+            <declare name="pages" type="Integer" array="False" size=""/>
+            <input variable="pages"/>
+            <declare name="totalCost" type="Real" array="False" size=""/>
+            <assign variable="totalCost" expression="(pages*0.2)+3"/>
+            <output expression="totalCost" newline="True"/>
+        </body>
     </function>
 </flowgorithm>
