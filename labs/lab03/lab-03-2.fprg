@@ -4,12 +4,18 @@
         <attribute name="name" value="lab-03-2"/>
         <attribute name="authors" value="iuser"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2025-07-22 11:27:21 AM"/>
+        <attribute name="saved" value="2025-07-22 11:33:13 AM"/>
         <attribute name="created" value="aXVzZXI7S01MTEFCNy1QQzA0OzIwMjUtMDctMjI7MTE6Mjc6MTQgQU07MjU5OQ=="/>
-        <attribute name="edited" value="aXVzZXI7S01MTEFCNy1QQzA0OzIwMjUtMDctMjI7MTE6Mjc6MjEgQU07MTsyNzA1"/>
+        <attribute name="edited" value="aXVzZXI7S01MTEFCNy1QQzA0OzIwMjUtMDctMjI7MTE6MzM6MTMgQU07MjsyNzA0"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
-        <body/>
+        <body>
+            <declare name="numberNights" type="Integer" array="False" size=""/>
+            <input variable="numberNights"/>
+            <declare name="totalPrice" type="Real" array="False" size=""/>
+            <assign variable="totalPrice" expression="(numberNights * 250)*1.15"/>
+            <output expression="totalPrice" newline="True"/>
+        </body>
     </function>
 </flowgorithm>
