@@ -4,6 +4,7 @@ student_age = int(input("Enter your age: "))     # int (integer)
 course_name = input("Enter the course name: ")   # str (string)
 
 # Displays the student information
-print("Student Name: " + student_name)
-print("Age: " + student_age)
+print("Student Information System")
+print("\nStudent Name: " + student_name)
+print("Age: " + str(student_age))
 print("Course: " + course_name)
