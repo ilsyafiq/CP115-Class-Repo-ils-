@@ -28,7 +28,6 @@ elif day_type == "Weekday" and customer_type == "Child" and is_student == "No":
 elif day_type == "Weekday" and customer_type == "Senior" and is_student == "No":
     base_price = 12.00
     final_price = (final_price + base_price)
-    final_price = base_price
 
     # Weekend pricing
 elif day_type == "Weekend" and customer_type == "Adult":
