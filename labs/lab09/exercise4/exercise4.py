@@ -14,7 +14,6 @@ elif consumption > 35:
 
 total_bill = water_cost + 8 + 2    # Service charge RM8, Sewerage RM2
 
-
 print(consumption)
 print(water_cost)
 print(total_bill)
