@@ -15,6 +15,7 @@ while score_input != "end":
 if passing_count + failing_count > 0:
     pass_rate = passing_count / (passing_count + failing_count) * 100
 
+
 print(passing_count)
 print(failing_count)
 print(f"{pass_rate:.2f}")
